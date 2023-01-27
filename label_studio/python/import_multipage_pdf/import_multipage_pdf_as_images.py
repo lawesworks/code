@@ -12,23 +12,28 @@ from pdf2image import convert_from_path, convert_from_bytes
 # That JSON is sent to Label Studio via API in order to import the images as seperate tasks into the Project specified 
 # by the Project ID
 
+f=open("/Users/bernardlawes/Documents/_Personal/SEC/labelstudio_api_token.txt","r")
+lines=f.readlines()
+Auth_Token=lines[0]
+f.close()
+
 
 #Set Label Studio Variables
 LSE_HOST = "https://app.heartex.com"                        # Domain where LS is hosted
-LSE_API_Token = "123456789987654321123456789987654ABC"      # API Token
+LSE_API_Token = Auth_Token                                  # API Token
 ProjectID = "22187"                                         # Project ID indicated in the URL
 
 # Set Input Folder
-folderIn = '/Users/bernardlawes/Documents/Sales Engineering/Datasets/PDFs/'
+folderIn = '/Users/bernardlawes/Documents/GitHub/public_data/pdf/'
 PDF_Files = glob.glob(folderIn + '*.pdf')                   # Scan for PDFs in the specified folder
 fileCount = len(PDF_Files)                                  # Get File Count
 
 # Set Output Directory
-folderOut = "/Users/bernardlawes/Documents/GitHub/public_data/pdf/"  #Set the primary parent output directory for each processed PDF 
+folderOut = "/Users/bernardlawes/Documents/GitHub/public_data/pdf/processed/"  #Set the primary parent output directory for each processed PDF 
 
 #Set Storage URLs
 storageDomain = "https://raw.githubusercontent.com/"  # Storage domain
-storageFolder = storageDomain+"lawesworks/public_data/main/pdf/"    # Think of this as a Bucket where I put my PDFs
+storageFolder = storageDomain+"lawesworks/public_data/main/pdf/processed/"    # Think of this as a Bucket where I put my PDFs
 JSON_File_List = []                                   # A JSON file is created for each PDF file containing URL to each image associated with it
 
 print("\nProcessing "+str(fileCount)+" PDF Files\n")
