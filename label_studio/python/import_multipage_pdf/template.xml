@@ -1,0 +1,18 @@
+<View>
+  <Repeater on="$images" indexFlag="{{idx}}" mode="pagination">
+
+    <RectangleLabels name="labels_{{idx}}" toName="page_{{idx}}">
+      <Label value="Document Title" />
+      <Label value="Document Section" background="blue"/>
+      <Label value="Document Paragraph" background="red"/>
+      <Label value="Document Author" background="green"/>
+    </RectangleLabels>
+    
+  <Image name="page_{{idx}}" value="$images[{{idx}}].url"/>
+
+   <TextArea name="transcription_{{idx}}" toName="page_{{idx}}" editable="true" 
+             perRegion="true" required="true" maxSubmissions="1" 
+             rows="5" placeholder="Recognized Text" 
+             displayMode="region-list"/>
+  </Repeater>
+</View>
