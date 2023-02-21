@@ -17,7 +17,6 @@ lines=f.readlines()
 Auth_Token=lines[0]
 f.close()
 
-
 #Set Label Studio Variables
 LSE_HOST = "https://app.heartex.com"                        # Domain where LS is hosted
 LSE_API_Token = Auth_Token                                  # API Token
