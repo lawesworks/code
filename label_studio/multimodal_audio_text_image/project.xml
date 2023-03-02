@@ -1,0 +1,280 @@
+<View>
+  
+  
+  
+  <Style>
+    /* Source Detail Table */
+    .ant-collapse {
+        background-color: #fff;
+        position: relative;
+        z-index: 999;
+        margin: 0em;
+    
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .ant-table-cell {
+       font-family: monospace;
+    }
+    
+    /* Labels */
+    .label-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .label-column {
+      margin-right: 30px;
+    }
+    .label-column .lsf-labels {
+      display: flex;
+      align-items: flex-start;
+    }
+  </Style>
+
+
+	<View style="display: flex; width:100%">
+    	<View style="width: 50%; padding-left: 2em; margin-right: 7em; border-radius: 3px"> 
+  
+                        <!-- Image with bounding boxes -->
+ <Image name="image" value="$image"/>
+ <View>
+      <RectangleLabels name="label" toName="image" strokeWidth="3" pointSize="small" opacity="0.4">
+        <Label value="Collision" background="red" canRotate="false"/>
+        <Label value="Burned" background="blue" canRotate="false"/>
+        <Label value="Vandalism" background="yellow" canRotate="false"/>
+        <Label value="Scratch" background="green" canRotate="false"/>
+      </RectangleLabels>
+      <Rectangle name="bbox" toName="image"/>
+      <Polygon name="segm" toName="image"/>
+      <Keypoint name="kp" toName="image"/>
+      <Brush name="brush" toName="image"/>
+      <Ellipse name="ellipse" toName="image"/>
+      
+    </View>
+   
+                                     <View>
+											 <!--
+											  <Taxonomy visibleWhen="region-selected" name="taxonomy" toName="image" perRegion="true" >
+                                                  <Choice value="Commercial"/>
+                                                  <Choice value="Law Enforcement"/>
+                                                  <Choice value="Emergency"/>
+                                                  <Choice value="Private"/>
+                                                  <Choice value="Military">
+                                                    <Choice value="Figher"/>
+                                                    <Choice value="Transport"/>
+                                                    <Choice value="Bomber"/>
+                                                  </Choice>
+                                              </Taxonomy>                                               
+                                       		  -->
+                                       
+                                      <Choices name="severity" toName="image" choice="single" visibleWhen="label-selected" whenTagName="label" whenLabelValue="Collision" perRegion="true" showInLine="true">
+                                      <Header value="Severity of Collision Damaage"/>
+                                      <Choice value="Total Loss"/>
+                                      <Choice value="Major"/>
+                                      <Choice value="Minor"/>
+                                      <Choice value="Superficial Damage"/>
+                                    </Choices>
+                                    
+                                    <TextArea name="info" toName="image" perRegion="true" rows="2" placeholder="Brief Description of the damage"/>
+                
+
+
+                          		<View style="box-shadow: 2px 2px 8px #AAA; margin-top:50px;">
+                                    <Collapse className="foobar">
+                                    <Panel value="Source Details">
+                                      <View className="info-panel">
+                                        <Table name="sourceDetail" value="$detail"/>
+                                      </View>
+                                    </Panel>
+                                  </Collapse>
+                          		</View>
+
+
+
+
+                                    </View> 
+
+      </View>
+      
+      
+      
+      
+                        <!-- Audio with single choice -->
+                        
+
+
+                        
+
+                        <!-- Text with multi-choices -->
+                        <View style="margin-top: 20px; padding: 0px;                                    box-shadow: 2px 2px 8px #AAA;">
+                          
+                          
+                          <View style="margin-top: 20px; padding: 25px;">
+                            <Header value="Call Center Recording"/>
+                            <!--<Audio name="audioX" value="$audio" zoom="true" hotkey="ctrl+enter" />-->
+                            
+                            <Labels name="labels" toName="audio">
+                              <Label value="Claimant" background="green"/>
+                              <Label value="Defendant" background="#9ea9ff"/>
+                              <Label value="Police Officer" background="#d3940d"/>
+                              <Label value="Legal Counsel" background="brown"/>
+                              <Label value="Judge" background="red"/>
+                            </Labels>
+                            <Audio name="audio" value="$audio_url" zoom="true" hotkey="ctrl+enter"/>
+                            
+                            <View style="margin-top:20px">
+                              <View visibleWhen="region-selected" whenLabelValue="Claimant">
+                              	<Header value="Claimant's Testimony"/>
+                              </View>
+                              <View visibleWhen="region-selected" whenLabelValue="Defendant">
+                              	<Header value="Defendant's Testimony"/>
+                              </View>
+                              <View visibleWhen="region-selected" whenLabelValue="Police Officer">
+                              	<Header value="Police Officer's Testimony"/>
+                              </View>
+                              <View visibleWhen="region-selected" whenLabelValue="Legal Counsel">
+                              	<Header value="Lawyer Statement"/>
+                              </View>
+                              <View visibleWhen="region-selected" whenLabelValue="Judge">
+                              	<Header value="Judge Response"/>
+                              </View>
+                              <TextArea name="infox" visibleWhen="region-selected" toName="audio" editable="true" perRegion="true" required="false" maxSubmissions="1" rows="2" placeholder="Transcription"/>
+                            </View>
+                            
+                            
+                            
+                              <View style="display: flex; margin-top:40px; margin-left:-20px">
+                                <View style="width: 150px;  margin-rightt: 0.5em; border-radius: 3px" visibleWhen="region-selected">
+ 
+                                    <View style="margin-left: 1em; " whenTagName="choice3">
+                                      <Header value="Sentiment" style="margin-left:0.5em;"/>
+                                      <Choices name="choices2" toName="audio" choice="single" showInLine="true" perRegion="true">
+                                        <Choice alias="positive" value="Positive"/>
+
+                                        <Choice alias="neutral" value="Neutral"/>
+                                        <Choice alias="negative" value="Negative"/>
+
+                                      </Choices>
+                                    </View>
+                                </View>
+                                  <View style="display: flex; ">
+                                  		
+                                  	  <View whenTagName="choices2" visibleWhen="choice-selected" whenChoiceValue="Negative">
+                                  	  <Header value="Emotion (-)" style="margin-left:0.5em;"/>
+                                      <Choices name="choices4" toName="audio" whenTagName="choices2" choice="single" showInLine="false" perRegion="true">
+                                        
+                                        <Choice alias="sad" value="Sad"/>
+                                        <Choice alias="nervous" value="Nervous"/>
+                                        <Choice alias="angry" value="Angry"/>
+                                      </Choices>
+                                  	  </View>
+                                   
+                                  	  <View whenTagName="choices2" visibleWhen="choice-selected" whenChoiceValue="Positive">
+                                  	  <Header value="Emotion (+)" style="margin-left:0.5em;"/>
+                                      <Choices name="choices5" toName="audio" whenTagName="choices2" choice="single" showInLine="false" perRegion="true">
+                                        
+										<Choice alias="relieved" value="Relieved"/>
+                                        <Choice alias="hopeful" value="Hopeful"/>
+                                        <Choice alias="happy" value="Happy"/>
+                                      </Choices>
+                                      </View>
+                                  
+                                  	  <View style="margin-left:20px;" whenTagName="choices4" visibleWhen="choice-selected" whenChoiceValue="Angry">
+                                  	  <Header value="Tone (-)" style="margin-left:0.5em;"/>
+                                      <Choices name="choices6" toName="audio" whenTagName="choices2" choice="single" showInLine="false" perRegion="true">
+                                        
+                                        <Choice alias="aggressive" value="Aggressive"/>
+                                        <Choice alias="sarchastic" value="Sarchastic"/>
+                                        <Choice alias="dismissive" value="Dismissive"/>
+                                      </Choices>
+                                  	  </View>
+								</View>
+                                  
+                           </View>
+                            
+                            
+                          </View>
+ 								
+                          		<View style="box-shadow: 2px 2px 8px #AAA; margin-top:10px; padding-top:10px"> 
+                          		<Header value="Transcription Analysis" style="margin-left: 1em; margin-bottom:40px; margin-top:20px; font-size:30px"/>
+                          		<View style="display: flex; width:100%; ">
+                                  
+                           			<View style="width: 200px; padding-left: 2em; margin-left:30px; margin-right: 2em; padding-right:20px; border-radius: 3px; margin-top:-10px; margin-bottom:40px; box-shadow: 2px 2px 8px #AAA;"> 
+                                        
+                                        
+                                        <Choices name="choice3" toName="text2" choice="single" showInLine="false">
+                                          <Header value="Accuracy" style="margin-top:20px;"/>
+                                          <Choice alias="accurate" value="Accurate"/>
+                                          <Choice alias="moderate" value="Moderate"/>
+                                          <Choice alias="incorrect" value="Incorrect"/>
+                                        </Choices>                
+                                   </View>
+                                  
+                                   <View style="margin-right:30px"> 
+                                      <Header value="Pre-Annotated Transcription"/>
+                                      <Text style="margin-bottom: 70px;" name="text2" value="$text"/> 
+                                      <!--<Text name="transcript_default" value=" "></Text>-->
+
+                                    <View style="margin-top:50px" name="transcript_modify" toName="text2" whenTagName="choice3" visibleWhen="choice-selected" whenChoiceValue="Incorrect">
+                                      <Header value="Annotator's Transcription"/>
+                                      <TextArea style="width:100%; box-shadow: 2px 2px 8px #AAA;" value="$text" name="transcription" toName="audio" rows="3" editable="true" placeholder="If the transcription is incorrect, please enter correct value here" maxSubmissions="1"/>               
+									</View>  
+
+                                     
+
+                                     
+                                   </View>
+                          		</View>
+                          	  </View>
+                          
+                          
+
+
+
+                                
+                                
+                                
+
+                                
+                                
+                                
+
+                                   <View style="margin-left: 1em; margin-top:30px;">
+                                        <Header value="Fraudulent Claim?" style="margin-left:0.5em; font-size:30px"/>
+                                        <Choices name="choices3" toName="text2" choice="single" showInLine="true">
+                                          <Choice alias="yes" value="Yes"/>
+                                          <Choice alias="no" value="No"/>
+                                          <Choice alias="unsure" value="Unsure"/>
+                                        </Choices>
+                                        
+
+                                     
+
+                                    
+                          </View>
+                          
+
+  
+   
+
+                          
+                          
+      </View>                
+                          
+                          
+  </View>
+
+</View><!--{
+	"data":{
+      "audio_url": "https://raw.githubusercontent.com/lawesworks/public_data/main/Audio_The_LJ_Speech_Dataset/LJ001-0003.wav",
+      "image":"https://raw.githubusercontent.com/lawesworks/public_data/main/Pixabay_Car_Accidents/accident-7507756_1920.jpg",
+      "text":"For although the chinese took impressions, from wood blocks engraved in reliefs for centuries before the woodcutters of the netherlands by a similar process",
+      "detail":{
+        "Entity": "0F447A97C9724549897B67FB7BE3485",
+        "Policy": "2C766ED6DB864E8AB2826C232A862763",
+        "Location": "NYC, NY",
+        "Coverage": "Full Coverage"
+      }
+	}
+}
+-->

@@ -1,0 +1,72 @@
+{
+    "id": 18051741,
+    "data": {
+      "csv": "https://raw.githubusercontent.com/heartexlabs/se-demo-external/master/Time%20Series%20-%20Basic/Dataset/time-series.csv"
+    },
+    "annotations": [],
+    "predictions": [
+        {
+            "model_version": "version 1",
+            "score": 0.5,
+            "result": [
+                {
+                  "id": "1jcivPakuR",
+                  "type": "timeserieslabels",
+                  "value": {
+                    "end": 5,
+                    "start": 3,
+                    "instant": false,
+                    "timeserieslabels": [
+                      "Run"
+                    ]
+                  },
+                  "origin": "manual",
+                  "to_name": "ts",
+                  "from_name": "label"
+                },
+                {
+                  "id": "_ghqhuzK3r",
+                  "type": "choices",
+                  "value": {
+                    "choices": [
+                      "Growth"
+                    ]
+                  },
+                  "origin": "manual",
+                  "to_name": "ts",
+                  "from_name": "pattern"
+                },
+                {
+                  "id": "4l7yqPmLq6",
+                  "type": "timeserieslabels",
+                  "value": {
+                    "end": 11,
+                    "start": 9,
+                    "instant": false,
+                    "timeserieslabels": [
+                      "Walk"
+                    ]
+                  },
+                  "origin": "manual",
+                  "to_name": "ts",
+                  "from_name": "label"
+                },
+                {
+                  "id": "UyFRWEBg-1",
+                  "type": "timeserieslabels",
+                  "value": {
+                    "end": 17,
+                    "start": 15,
+                    "instant": false,
+                    "timeserieslabels": [
+                      "Drive"
+                    ]
+                  },
+                  "origin": "manual",
+                  "to_name": "ts",
+                  "from_name": "label"
+                }
+              ]
+        }
+    ]
+  }

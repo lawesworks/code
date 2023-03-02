@@ -1,0 +1,148 @@
+[
+{
+    "id": 91051741,
+    "data": {
+      "audio_url": "https://raw.githubusercontent.com/lawesworks/public_data/main/Audio_The_LJ_Speech_Dataset/LJ001-0001.wav",
+      "image":"https://raw.githubusercontent.com/lawesworks/public_data/main/Pixabay_Car_Accidents/accident-1409012_1920.jpg",
+      "text":"Printing in the only presence sense in which we are concerned, differs from most if not all the arts and crafts, represented in the exhibition ",
+      "detail":{
+        "Entity": "<bookstore xmlns:xlink='http://www.w3.org/1999/xlink'>",
+        "Latitude": "11111",
+        "Longitude": "222222",
+        "Policy": "2C766ED6DB864E8AB2826C232A862763",
+        "Location": "NYC, NY",
+        "Coverage": "Full Coverage"
+      }
+    },
+    "annotations": [],
+    "predictions": []
+},
+{
+    "id": 18051741,
+    "data": {
+      "audio_url": "https://raw.githubusercontent.com/lawesworks/public_data/main/Audio_The_LJ_Speech_Dataset/LJ001-0002.wav",
+      "image":"https://raw.githubusercontent.com/lawesworks/public_data/main/Pixabay_Car_Accidents/accident-4860940_1920.jpg",
+      "text":"In being comparatively modern",
+      "detail":{
+        "Entity": "0F447A97C9724549897B67FB7BE3485E",
+        "Policy": "2C766ED6DB864E8AB2826C232A862763",
+        "Location": "NYC, NY",
+        "Coverage": "Full Coverage"
+      }
+    },
+    "annotations": [],
+    "predictions": []
+},
+{
+    "id": 91805741,
+    "data": {
+      "audio_url": "https://raw.githubusercontent.com/lawesworks/public_data/main/Audio_The_LJ_Speech_Dataset/LJ001-0003.wav",
+      "image":"https://raw.githubusercontent.com/lawesworks/public_data/main/Pixabay_Car_Accidents/accident-7507756_1920.jpg",
+      "text":"For although the chinese took impressions, from wood blocks engraved in reliefs for centuries before the woodcutters of the netherlands by a similar process",
+      "detail":{
+        "Entity": "0F447A97C9724549897B67FB7BE3485E",
+        "Policy": "2C766ED6DB864E8AB2826C232A862763",
+        "Location": "NYC, NY",
+        "Coverage": "Full Coverage"
+      }
+    },
+    "annotations": [],
+    "predictions": []
+},
+{
+    "id": 91851741,
+    "data": {
+      "audio_url": "https://raw.githubusercontent.com/lawesworks/public_data/main/Audio_The_LJ_Speech_Dataset/LJ001-0004.wav",
+      "image":"https://raw.githubusercontent.com/lawesworks/public_data/main/Pixabay_Car_Accidents/accident-785442_1920.jpg",
+      "text":"produced the block books which were the immediate predecessors of the true printed book",
+      "detail":{
+        "Entity": "0F447A97C9724549897B67FB7BE3485E",
+        "Policy": "2C766ED6DB864E8AB2826C232A862763",
+        "Location": "NYC, NY",
+        "Coverage": "Full Coverage"
+      }
+    },
+    "annotations": [],
+    "predictions": []
+},
+{
+    "id": 91805741,
+    "data": {
+      "audio_url": "https://raw.githubusercontent.com/lawesworks/public_data/main/Audio_The_LJ_Speech_Dataset/LJ001-0005.wav",
+      "image":"https://raw.githubusercontent.com/lawesworks/public_data/main/Pixabay_Car_Accidents/accident-87812_1920.jpg",
+      "text":"the invention of the movable metal printed letters in the middle of the 15th century, may justly be considered as the invention of the art of printing.  ",
+      "detail":{
+        "Entity": "0F447A97C9724549897B67FB7BE3485E",
+        "Policy": "2C766ED6DB864E8AB2826C232A862763",
+        "Location": "NYC, NY",
+        "Coverage": "Full Coverage"
+      }
+    },
+    "annotations": [],
+    "predictions": []
+},
+{
+    "id": 91051741,
+    "data": {
+      "audio_url": "https://raw.githubusercontent.com/lawesworks/public_data/main/Audio_The_LJ_Speech_Dataset/LJ001-0006.wav",
+      "image":"https://raw.githubusercontent.com/lawesworks/public_data/main/Pixabay_Car_Accidents/automobile-70074_1920.jpg",
+      "text":"And it is worth mentioning in passing, that as an example of fine typography ",
+      "detail":{
+        "Entity": "0F447A97C9724549897B67FB7BE3485E",
+        "Policy": "2C766ED6DB864E8AB2826C232A862763",
+        "Location": "NYC, NY",
+        "Coverage": "Full Coverage"
+      }
+    },
+    "annotations": [],
+    "predictions": []
+},
+{
+    "id": 910517412,
+    "data": {
+      "audio_url": "https://raw.githubusercontent.com/lawesworks/public_data/main/Audio_The_LJ_Speech_Dataset/LJ001-0007.wav",
+      "image":"https://raw.githubusercontent.com/lawesworks/public_data/main/Pixabay_Car_Accidents/burnt-car-2698677_1920.jpg",
+      "text":"The earliest book printed with movable types, the Guttenberg or 42 line Bible, of about 1455",
+      "detail":{
+        "Entity": "0F447A97C9724549897B67FB7BE3485E",
+        "Policy": "2C766ED6DB864E8AB2826C232A862763",
+        "Location": "NYC, NY",
+        "Coverage": "Full Coverage"
+      }
+    },
+    "annotations": [],
+    "predictions": []
+},
+{
+    "id": 918057412,
+    "data": {
+      "audio_url": "https://raw.githubusercontent.com/lawesworks/public_data/main/Audio_The_LJ_Speech_Dataset/LJ001-0008.wav",
+      "image":"https://raw.githubusercontent.com/lawesworks/public_data/main/Pixabay_Car_Accidents/car-accident-1538175_1920.jpg",
+      "text":"has never been surpassed",
+      "detail":{
+        "Entity": "0F447A97C9724549897B67FB7BE3485E",
+        "Policy": "2C766ED6DB864E8AB2826C232A862763",
+        "Location": "NYC, NY",
+        "Coverage": "Full Coverage"
+      }
+    },
+    "annotations": [],
+    "predictions": []
+},
+{
+    "id": 18051741,
+    "data": {
+      "audio_url": "https://raw.githubusercontent.com/lawesworks/public_data/main/Audio_The_LJ_Speech_Dataset/LJ001-0009.wav",
+      "image":"https://raw.githubusercontent.com/lawesworks/public_data/main/Pixabay_Car_Accidents/car-wrecked-845143_1920.jpg",
+      "text":"Printing then for our purpose may be considered as the art of making books by means of movable type",
+      "detail":{
+        "Entity": "0F447A97C9724549897B67FB7BE3485E",
+        "Policy": "2C766ED6DB864E8AB2826C232A862763",
+        "Location": "NYC, NY",
+        "Coverage": "Full Coverage"
+      }
+    },
+    "annotations": [],
+    "predictions": []
+}
+]
