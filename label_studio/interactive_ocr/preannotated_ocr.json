@@ -1,0 +1,1227 @@
+[
+    {
+        "id": 22103825,
+        "data": {
+          "image": "https://raw.githubusercontent.com/lawesworks/public_data/main/images/ocr/books.jpg"
+        },
+        "annotations": [],
+        "predictions": [
+          {
+            "id": 5083713,
+            "model_version": "undefined",
+            "created_ago": "6 months, 2 weeks",
+            "result": [
+              {
+                "id": "dXthJmBUUX",
+                "type": "rectangle",
+                "value": {
+                  "x": 15.466666666666667,
+                  "y": 67.60000000000001,
+                  "width": 17.599999999999994,
+                  "height": 6.266666666666667,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "bbox",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              },
+              {
+                "id": "dXthJmBUUX",
+                "type": "textarea",
+                "value": {
+                  "x": 15.466666666666667,
+                  "y": 67.60000000000001,
+                  "text": [
+                    "Le livre phenomene"
+                  ],
+                  "width": 17.599999999999994,
+                  "height": 6.266666666666667,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "transcription",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              },
+              {
+                "id": "bWrvTtjC4E",
+                "type": "rectangle",
+                "value": {
+                  "x": 12.8,
+                  "y": 29.2,
+                  "width": 9.73333333333333,
+                  "height": 10.26666666666667,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "bbox",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              },
+              {
+                "id": "bWrvTtjC4E",
+                "type": "textarea",
+                "value": {
+                  "x": 12.8,
+                  "y": 29.2,
+                  "text": [
+                    "Nouvelle"
+                  ],
+                  "width": 9.73333333333333,
+                  "height": 10.26666666666667,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "transcription",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              },
+              {
+                "id": "WQErI_mRQk",
+                "type": "rectangle",
+                "value": {
+                  "x": 63.06666666666667,
+                  "y": 53.466666666666654,
+                  "width": 30,
+                  "height": 18,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "bbox",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              },
+              {
+                "id": "WQErI_mRQk",
+                "type": "textarea",
+                "value": {
+                  "x": 63.06666666666667,
+                  "y": 53.466666666666654,
+                  "text": [
+                    "DEVENEZ\nRICHE"
+                  ],
+                  "width": 30,
+                  "height": 18,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "transcription",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              },
+              {
+                "id": "rYY6a4B8US",
+                "type": "rectangle",
+                "value": {
+                  "x": 78.13333333333331,
+                  "y": 72.26666666666667,
+                  "width": 14.266666666666667,
+                  "height": 3.466666666666666,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "bbox",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              },
+              {
+                "id": "rYY6a4B8US",
+                "type": "textarea",
+                "value": {
+                  "x": 78.13333333333331,
+                  "y": 72.26666666666667,
+                  "text": [
+                    "Ramit Sethi"
+                  ],
+                  "width": 14.266666666666667,
+                  "height": 3.466666666666666,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "transcription",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              },
+              {
+                "id": "4QyKN872KL",
+                "type": "rectangle",
+                "value": {
+                  "x": 63.06666666666667,
+                  "y": 74.8,
+                  "width": 12.666666666666666,
+                  "height": 8.933333333333334,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "bbox",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              },
+              {
+                "id": "4QyKN872KL",
+                "type": "textarea",
+                "value": {
+                  "x": 63.06666666666667,
+                  "y": 74.8,
+                  "text": [
+                    "Un programme"
+                  ],
+                  "width": 12.666666666666666,
+                  "height": 8.933333333333334,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "transcription",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              },
+              {
+                "id": "z8kWN6q5oj",
+                "type": "rectangle",
+                "value": {
+                  "x": 80.53333333333333,
+                  "y": 77.73333333333333,
+                  "width": 12.533333333333333,
+                  "height": 6.933333333333332,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "bbox",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              },
+              {
+                "id": "z8kWN6q5oj",
+                "type": "textarea",
+                "value": {
+                  "x": 80.53333333333333,
+                  "y": 77.73333333333333,
+                  "text": [
+                    "Nouvelle edition"
+                  ],
+                  "width": 12.533333333333333,
+                  "height": 6.933333333333332,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "transcription",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              }
+            ],
+            "score": null,
+            "cluster": null,
+            "neighbors": null,
+            "mislabeling": 0,
+            "created_at": "2022-09-07T12:52:59.511331Z",
+            "updated_at": "2022-09-07T12:52:59.511340Z",
+            "task": 22103825
+          }
+        ]
+      },
+      {
+        "id": 22103825,
+        "data": {
+          "image": "https://raw.githubusercontent.com/lawesworks/public_data/main/images/ocr/books.jpg"
+        },
+        "annotations": [],
+        "predictions": [
+          {
+            "id": 5083713,
+            "model_version": "undefined",
+            "created_ago": "6 months, 2 weeks",
+            "result": [
+              {
+                "id": "dXthJmBUUX",
+                "type": "rectangle",
+                "value": {
+                  "x": 15.466666666666667,
+                  "y": 67.60000000000001,
+                  "width": 17.599999999999994,
+                  "height": 6.266666666666667,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "bbox",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              },
+              {
+                "id": "dXthJmBUUX",
+                "type": "textarea",
+                "value": {
+                  "x": 15.466666666666667,
+                  "y": 67.60000000000001,
+                  "text": [
+                    "Le livre phenomene"
+                  ],
+                  "width": 17.599999999999994,
+                  "height": 6.266666666666667,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "transcription",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              },
+              {
+                "id": "bWrvTtjC4E",
+                "type": "rectangle",
+                "value": {
+                  "x": 12.8,
+                  "y": 29.2,
+                  "width": 9.73333333333333,
+                  "height": 10.26666666666667,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "bbox",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              },
+              {
+                "id": "bWrvTtjC4E",
+                "type": "textarea",
+                "value": {
+                  "x": 12.8,
+                  "y": 29.2,
+                  "text": [
+                    "Nouvelle"
+                  ],
+                  "width": 9.73333333333333,
+                  "height": 10.26666666666667,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "transcription",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              },
+              {
+                "id": "WQErI_mRQk",
+                "type": "rectangle",
+                "value": {
+                  "x": 63.06666666666667,
+                  "y": 53.466666666666654,
+                  "width": 30,
+                  "height": 18,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "bbox",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              },
+              {
+                "id": "WQErI_mRQk",
+                "type": "textarea",
+                "value": {
+                  "x": 63.06666666666667,
+                  "y": 53.466666666666654,
+                  "text": [
+                    "DEVENEZ\nRICHE"
+                  ],
+                  "width": 30,
+                  "height": 18,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "transcription",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              },
+              {
+                "id": "rYY6a4B8US",
+                "type": "rectangle",
+                "value": {
+                  "x": 78.13333333333331,
+                  "y": 72.26666666666667,
+                  "width": 14.266666666666667,
+                  "height": 3.466666666666666,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "bbox",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              },
+              {
+                "id": "rYY6a4B8US",
+                "type": "textarea",
+                "value": {
+                  "x": 78.13333333333331,
+                  "y": 72.26666666666667,
+                  "text": [
+                    "Ramit Sethi"
+                  ],
+                  "width": 14.266666666666667,
+                  "height": 3.466666666666666,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "transcription",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              },
+              {
+                "id": "4QyKN872KL",
+                "type": "rectangle",
+                "value": {
+                  "x": 63.06666666666667,
+                  "y": 74.8,
+                  "width": 12.666666666666666,
+                  "height": 8.933333333333334,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "bbox",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              },
+              {
+                "id": "4QyKN872KL",
+                "type": "textarea",
+                "value": {
+                  "x": 63.06666666666667,
+                  "y": 74.8,
+                  "text": [
+                    "Un programme"
+                  ],
+                  "width": 12.666666666666666,
+                  "height": 8.933333333333334,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "transcription",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              },
+              {
+                "id": "z8kWN6q5oj",
+                "type": "rectangle",
+                "value": {
+                  "x": 80.53333333333333,
+                  "y": 77.73333333333333,
+                  "width": 12.533333333333333,
+                  "height": 6.933333333333332,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "bbox",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              },
+              {
+                "id": "z8kWN6q5oj",
+                "type": "textarea",
+                "value": {
+                  "x": 80.53333333333333,
+                  "y": 77.73333333333333,
+                  "text": [
+                    "Nouvelle edition"
+                  ],
+                  "width": 12.533333333333333,
+                  "height": 6.933333333333332,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "transcription",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              }
+            ],
+            "score": null,
+            "cluster": null,
+            "neighbors": null,
+            "mislabeling": 0,
+            "created_at": "2022-09-07T12:52:59.511331Z",
+            "updated_at": "2022-09-07T12:52:59.511340Z",
+            "task": 22103825
+          }
+        ]
+      },
+      {
+        "id": 22103825,
+        "data": {
+          "image": "https://raw.githubusercontent.com/lawesworks/public_data/main/images/ocr/books.jpg"
+        },
+        "annotations": [],
+        "predictions": [
+          {
+            "id": 5083713,
+            "model_version": "undefined",
+            "created_ago": "6 months, 2 weeks",
+            "result": [
+              {
+                "id": "dXthJmBUUX",
+                "type": "rectangle",
+                "value": {
+                  "x": 15.466666666666667,
+                  "y": 67.60000000000001,
+                  "width": 17.599999999999994,
+                  "height": 6.266666666666667,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "bbox",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              },
+              {
+                "id": "dXthJmBUUX",
+                "type": "textarea",
+                "value": {
+                  "x": 15.466666666666667,
+                  "y": 67.60000000000001,
+                  "text": [
+                    "Le livre phenomene"
+                  ],
+                  "width": 17.599999999999994,
+                  "height": 6.266666666666667,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "transcription",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              },
+              {
+                "id": "bWrvTtjC4E",
+                "type": "rectangle",
+                "value": {
+                  "x": 12.8,
+                  "y": 29.2,
+                  "width": 9.73333333333333,
+                  "height": 10.26666666666667,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "bbox",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              },
+              {
+                "id": "bWrvTtjC4E",
+                "type": "textarea",
+                "value": {
+                  "x": 12.8,
+                  "y": 29.2,
+                  "text": [
+                    "Nouvelle"
+                  ],
+                  "width": 9.73333333333333,
+                  "height": 10.26666666666667,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "transcription",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              },
+              {
+                "id": "WQErI_mRQk",
+                "type": "rectangle",
+                "value": {
+                  "x": 63.06666666666667,
+                  "y": 53.466666666666654,
+                  "width": 30,
+                  "height": 18,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "bbox",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              },
+              {
+                "id": "WQErI_mRQk",
+                "type": "textarea",
+                "value": {
+                  "x": 63.06666666666667,
+                  "y": 53.466666666666654,
+                  "text": [
+                    "DEVENEZ\nRICHE"
+                  ],
+                  "width": 30,
+                  "height": 18,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "transcription",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              },
+              {
+                "id": "rYY6a4B8US",
+                "type": "rectangle",
+                "value": {
+                  "x": 78.13333333333331,
+                  "y": 72.26666666666667,
+                  "width": 14.266666666666667,
+                  "height": 3.466666666666666,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "bbox",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              },
+              {
+                "id": "rYY6a4B8US",
+                "type": "textarea",
+                "value": {
+                  "x": 78.13333333333331,
+                  "y": 72.26666666666667,
+                  "text": [
+                    "Ramit Sethi"
+                  ],
+                  "width": 14.266666666666667,
+                  "height": 3.466666666666666,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "transcription",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              },
+              {
+                "id": "4QyKN872KL",
+                "type": "rectangle",
+                "value": {
+                  "x": 63.06666666666667,
+                  "y": 74.8,
+                  "width": 12.666666666666666,
+                  "height": 8.933333333333334,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "bbox",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              },
+              {
+                "id": "4QyKN872KL",
+                "type": "textarea",
+                "value": {
+                  "x": 63.06666666666667,
+                  "y": 74.8,
+                  "text": [
+                    "Un programme"
+                  ],
+                  "width": 12.666666666666666,
+                  "height": 8.933333333333334,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "transcription",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              },
+              {
+                "id": "z8kWN6q5oj",
+                "type": "rectangle",
+                "value": {
+                  "x": 80.53333333333333,
+                  "y": 77.73333333333333,
+                  "width": 12.533333333333333,
+                  "height": 6.933333333333332,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "bbox",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              },
+              {
+                "id": "z8kWN6q5oj",
+                "type": "textarea",
+                "value": {
+                  "x": 80.53333333333333,
+                  "y": 77.73333333333333,
+                  "text": [
+                    "Nouvelle edition"
+                  ],
+                  "width": 12.533333333333333,
+                  "height": 6.933333333333332,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "transcription",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              }
+            ],
+            "score": null,
+            "cluster": null,
+            "neighbors": null,
+            "mislabeling": 0,
+            "created_at": "2022-09-07T12:52:59.511331Z",
+            "updated_at": "2022-09-07T12:52:59.511340Z",
+            "task": 22103825
+          }
+        ]
+      },
+      {
+        "id": 22103825,
+        "data": {
+          "image": "https://raw.githubusercontent.com/lawesworks/public_data/main/images/ocr/books.jpg"
+        },
+        "annotations": [],
+        "predictions": [
+          {
+            "id": 5083713,
+            "model_version": "undefined",
+            "created_ago": "6 months, 2 weeks",
+            "result": [
+              {
+                "id": "dXthJmBUUX",
+                "type": "rectangle",
+                "value": {
+                  "x": 15.466666666666667,
+                  "y": 67.60000000000001,
+                  "width": 17.599999999999994,
+                  "height": 6.266666666666667,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "bbox",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              },
+              {
+                "id": "dXthJmBUUX",
+                "type": "textarea",
+                "value": {
+                  "x": 15.466666666666667,
+                  "y": 67.60000000000001,
+                  "text": [
+                    "Le livre phenomene"
+                  ],
+                  "width": 17.599999999999994,
+                  "height": 6.266666666666667,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "transcription",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              },
+              {
+                "id": "bWrvTtjC4E",
+                "type": "rectangle",
+                "value": {
+                  "x": 12.8,
+                  "y": 29.2,
+                  "width": 9.73333333333333,
+                  "height": 10.26666666666667,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "bbox",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              },
+              {
+                "id": "bWrvTtjC4E",
+                "type": "textarea",
+                "value": {
+                  "x": 12.8,
+                  "y": 29.2,
+                  "text": [
+                    "Nouvelle"
+                  ],
+                  "width": 9.73333333333333,
+                  "height": 10.26666666666667,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "transcription",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              },
+              {
+                "id": "WQErI_mRQk",
+                "type": "rectangle",
+                "value": {
+                  "x": 63.06666666666667,
+                  "y": 53.466666666666654,
+                  "width": 30,
+                  "height": 18,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "bbox",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              },
+              {
+                "id": "WQErI_mRQk",
+                "type": "textarea",
+                "value": {
+                  "x": 63.06666666666667,
+                  "y": 53.466666666666654,
+                  "text": [
+                    "DEVENEZ\nRICHE"
+                  ],
+                  "width": 30,
+                  "height": 18,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "transcription",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              },
+              {
+                "id": "rYY6a4B8US",
+                "type": "rectangle",
+                "value": {
+                  "x": 78.13333333333331,
+                  "y": 72.26666666666667,
+                  "width": 14.266666666666667,
+                  "height": 3.466666666666666,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "bbox",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              },
+              {
+                "id": "rYY6a4B8US",
+                "type": "textarea",
+                "value": {
+                  "x": 78.13333333333331,
+                  "y": 72.26666666666667,
+                  "text": [
+                    "Ramit Sethi"
+                  ],
+                  "width": 14.266666666666667,
+                  "height": 3.466666666666666,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "transcription",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              },
+              {
+                "id": "4QyKN872KL",
+                "type": "rectangle",
+                "value": {
+                  "x": 63.06666666666667,
+                  "y": 74.8,
+                  "width": 12.666666666666666,
+                  "height": 8.933333333333334,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "bbox",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              },
+              {
+                "id": "4QyKN872KL",
+                "type": "textarea",
+                "value": {
+                  "x": 63.06666666666667,
+                  "y": 74.8,
+                  "text": [
+                    "Un programme"
+                  ],
+                  "width": 12.666666666666666,
+                  "height": 8.933333333333334,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "transcription",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              },
+              {
+                "id": "z8kWN6q5oj",
+                "type": "rectangle",
+                "value": {
+                  "x": 80.53333333333333,
+                  "y": 77.73333333333333,
+                  "width": 12.533333333333333,
+                  "height": 6.933333333333332,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "bbox",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              },
+              {
+                "id": "z8kWN6q5oj",
+                "type": "textarea",
+                "value": {
+                  "x": 80.53333333333333,
+                  "y": 77.73333333333333,
+                  "text": [
+                    "Nouvelle edition"
+                  ],
+                  "width": 12.533333333333333,
+                  "height": 6.933333333333332,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "transcription",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              }
+            ],
+            "score": null,
+            "cluster": null,
+            "neighbors": null,
+            "mislabeling": 0,
+            "created_at": "2022-09-07T12:52:59.511331Z",
+            "updated_at": "2022-09-07T12:52:59.511340Z",
+            "task": 22103825
+          }
+        ]
+      },
+      {
+        "id": 22103825,
+        "data": {
+          "image": "https://raw.githubusercontent.com/lawesworks/public_data/main/images/ocr/books.jpg"
+        },
+        "annotations": [],
+        "predictions": [
+          {
+            "id": 5083713,
+            "model_version": "undefined",
+            "created_ago": "6 months, 2 weeks",
+            "result": [
+              {
+                "id": "dXthJmBUUX",
+                "type": "rectangle",
+                "value": {
+                  "x": 15.466666666666667,
+                  "y": 67.60000000000001,
+                  "width": 17.599999999999994,
+                  "height": 6.266666666666667,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "bbox",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              },
+              {
+                "id": "dXthJmBUUX",
+                "type": "textarea",
+                "value": {
+                  "x": 15.466666666666667,
+                  "y": 67.60000000000001,
+                  "text": [
+                    "Le livre phenomene"
+                  ],
+                  "width": 17.599999999999994,
+                  "height": 6.266666666666667,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "transcription",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              },
+              {
+                "id": "bWrvTtjC4E",
+                "type": "rectangle",
+                "value": {
+                  "x": 12.8,
+                  "y": 29.2,
+                  "width": 9.73333333333333,
+                  "height": 10.26666666666667,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "bbox",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              },
+              {
+                "id": "bWrvTtjC4E",
+                "type": "textarea",
+                "value": {
+                  "x": 12.8,
+                  "y": 29.2,
+                  "text": [
+                    "Nouvelle"
+                  ],
+                  "width": 9.73333333333333,
+                  "height": 10.26666666666667,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "transcription",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              },
+              {
+                "id": "WQErI_mRQk",
+                "type": "rectangle",
+                "value": {
+                  "x": 63.06666666666667,
+                  "y": 53.466666666666654,
+                  "width": 30,
+                  "height": 18,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "bbox",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              },
+              {
+                "id": "WQErI_mRQk",
+                "type": "textarea",
+                "value": {
+                  "x": 63.06666666666667,
+                  "y": 53.466666666666654,
+                  "text": [
+                    "DEVENEZ\nRICHE"
+                  ],
+                  "width": 30,
+                  "height": 18,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "transcription",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              },
+              {
+                "id": "rYY6a4B8US",
+                "type": "rectangle",
+                "value": {
+                  "x": 78.13333333333331,
+                  "y": 72.26666666666667,
+                  "width": 14.266666666666667,
+                  "height": 3.466666666666666,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "bbox",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              },
+              {
+                "id": "rYY6a4B8US",
+                "type": "textarea",
+                "value": {
+                  "x": 78.13333333333331,
+                  "y": 72.26666666666667,
+                  "text": [
+                    "Ramit Sethi"
+                  ],
+                  "width": 14.266666666666667,
+                  "height": 3.466666666666666,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "transcription",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              },
+              {
+                "id": "4QyKN872KL",
+                "type": "rectangle",
+                "value": {
+                  "x": 63.06666666666667,
+                  "y": 74.8,
+                  "width": 12.666666666666666,
+                  "height": 8.933333333333334,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "bbox",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              },
+              {
+                "id": "4QyKN872KL",
+                "type": "textarea",
+                "value": {
+                  "x": 63.06666666666667,
+                  "y": 74.8,
+                  "text": [
+                    "Un programme"
+                  ],
+                  "width": 12.666666666666666,
+                  "height": 8.933333333333334,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "transcription",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              },
+              {
+                "id": "z8kWN6q5oj",
+                "type": "rectangle",
+                "value": {
+                  "x": 80.53333333333333,
+                  "y": 77.73333333333333,
+                  "width": 12.533333333333333,
+                  "height": 6.933333333333332,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "bbox",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              },
+              {
+                "id": "z8kWN6q5oj",
+                "type": "textarea",
+                "value": {
+                  "x": 80.53333333333333,
+                  "y": 77.73333333333333,
+                  "text": [
+                    "Nouvelle edition"
+                  ],
+                  "width": 12.533333333333333,
+                  "height": 6.933333333333332,
+                  "rotation": 0
+                },
+                "origin": "manual",
+                "to_name": "image",
+                "from_name": "transcription",
+                "image_rotation": 0,
+                "original_width": 1080,
+                "original_height": 1080
+              }
+            ],
+            "score": null,
+            "cluster": null,
+            "neighbors": null,
+            "mislabeling": 0,
+            "created_at": "2022-09-07T12:52:59.511331Z",
+            "updated_at": "2022-09-07T12:52:59.511340Z",
+            "task": 22103825
+          }
+        ]
+      }
+]
